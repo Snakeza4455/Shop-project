@@ -55,7 +55,7 @@
 }
 
 .product-card {
-  border-radius: 12px;
+  border-radius: 15px;
   transition: transform 0.2s ease;
 }
 
@@ -83,13 +83,12 @@
   font-size: 0.9rem;              /* ขนาดตัวอักษร */
   color: #666;                    /* สีเทา อ่านง่าย */
   display: -webkit-box;           /* เปิดโหมดตัดบรรทัด */
-  -webkit-box-orient: vertical;   /* จัดข้อความแนวตั้ง */
-  -webkit-line-clamp: 3;          /* จำกัด 3 บรรทัด */
+  -webkit-box-orient: vertical;   /* จัดข้อความแนวตั้ง */          
   overflow: hidden;               
 }
 
 .card-body{
-  padding: 15px;
+  padding: 25px;
 }
 
 /* ตัวการ์ด */
